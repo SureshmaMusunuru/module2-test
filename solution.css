@@ -1,0 +1,88 @@
+h2{
+	text-align: center;
+	color: blue;
+	margin-top: 40px;
+	font-size: 2em;
+}
+*{
+	box-sizing: border-box;
+}
+section {
+    background-color: Grey;
+    border: 2px solid black;
+    padding: 0;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section h5 {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin: 0 0 0 60%;
+    font-size: 1em;
+    text-align: center;
+    padding: 2px 0;
+    width: 40%;
+}
+section p {
+    padding: 5px 5px 5px 5px;
+}
+#cycle h5 {
+    background-color: maroon;
+    color: white;
+}
+
+#bike h5 {
+    background-color: maroon;
+    color: white;
+}
+#car h5 {
+    background-color: maroon;
+    color: white;
+}
+@media(min-width: 992px){
+	section {
+		float: left;
+        margin-right: 2.5%;
+        width: 30%;
+        height:200px;
+	}
+	#cycle {
+		margin-left: 2.5%;
+	}
+}
+@media(min-width: 768px)and(max-width: 991px){
+	section {
+		float: left;
+		margin-right: 2.5%;
+		width: 46.25%;
+		height: 200px;
+	}
+	#cycle {
+		margin-left: 2.5%;
+	}
+	 #bike {
+        clear: left;
+        margin-left: 2.5%;
+        width: 95%;
+    }
+
+    #car h5{
+        margin: 0 0 0 80%;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    section {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 95%;
+    }
+}
+
+
+
+
+
